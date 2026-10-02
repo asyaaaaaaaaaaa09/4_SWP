@@ -6,19 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        * {
+            box-sizing: content-box;
+        }
+
         div {
-            height: 50px;
-            width: 50px;
+            height: 150px;
+            width: 150px;
             background-color: pink;
+            border-style: solid;
+        }
+
+        .second {
+            padding: 15px;
         }
     </style>
 </head>
 
 <body>
-    <div>
+    <div class="first">
         eins
     </div>
-    <div>
+    <div class="second">
         zwei
     </div>
 
