@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS HTML Test 2</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .box {
+            position: relative;
+            width: 200px;
+            height: 400px;
+            margin: 40px 0 0 40px;
+            background: aqua;
+        }
+
+        .schwarz {
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            width: 20px;
+            height: 20px;
+            background: black;
+        }
+
+        .gruen {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 40px;
+            height: 40px;
+            background: green;
+        }
+
+        .leiste {
+            display: flex;
+            justify-content: space-between;
+            margin: 50px 40px;
+            padding: 20px;
+            border: 2px solid black;
+        }
+
+        .quadrat {
+            width: 40px;
+            height: 20px;
+            background: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <div class="schwarz"></div>
+        <div class="gruen"></div>
+    </div>
+
+    <div class="leiste">
+        <div class="quadrat"></div>
+        <div class="quadrat"></div>
+        <div class="quadrat"></div>
+    </div>
+
+</body>
+
+</html>

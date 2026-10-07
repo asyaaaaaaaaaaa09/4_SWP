@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS HTML Test</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .box-oben {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 50px;
+            height: 50px;
+            background: purple;
+        }
+
+        .blau {
+            position: relative;
+            width: 400px;
+            height: 300px;
+            margin: 20px 0 50px 20px;
+            background: aqua;
+        }
+
+        .blau h1 {
+            margin: 0;
+            padding: 20px 0 0 20px;
+        }
+
+        .braun {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 100px;
+            height: 100px;
+            background: brown;
+        }
+
+        .leiste {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 0;
+            background: yellow;
+        }
+
+        .box {
+            width: 60px;
+            height: 60px;
+            background: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box-oben"></div>
+
+    <div class="blau">
+        <h1>Willkommen!</h1>
+        <ul>
+            <li>Eins</li>
+            <li>Zwei</li>
+            <li>Drei</li>
+        </ul>
+        <div class="braun"></div>
+    </div>
+
+    <div class="leiste">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+</body>
+
+</html>
